@@ -1,10 +1,17 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>IBMZ - REFERENCES</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/app-refcodes.css '%}">
   </head>
   <body>
+    <div class="action-buttons">
+      <button type="button" name="add"> ADD NEW </button>
+      <button type="button" name="update"> UPDATE </button>
+      <button type="button" name="delete"> DELETE </button>
+    </div>
       <table>
         <tr>
           <th>#</th>
